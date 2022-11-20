@@ -1,0 +1,145 @@
+@import url("https://use.typekit.net/qlw8gfm.css");
+
+
+body{
+    background-image: url(../images/FondoLanding.jpg);
+    background-color: #ffffff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-family: futura-pt,sans-serif;
+    font-weight: 300;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+    
+
+nav {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-left: 82%;
+}
+    
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: right;
+}
+
+
+h1 {
+    font-weight: 300;
+    font-size: 144px;
+    text-align: center;
+    margin-top: 15%;
+    margin-right: 10%;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+
+@keyframes move {
+      
+  from{color: #F3994E; transform: scale(0.1);}
+  to{color: #ffffff;transform: scale(1)}
+  
+}
+
+
+h2 {
+    color: #F3994E;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 50%;
+    margin-right: 10%;
+}
+
+
+.text {
+      color: #676767;
+      width: 900px;
+      margin-left: 4%;
+}
+
+
+h3 {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+
+p {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+
+.video {
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 92%;
+    object-fit: cover
+}
+
+
+form {
+    color: #F3994E;
+    font-family: futura-pt,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 300px;
+    height: 20px;
+    display: block;
+}
+
+
+.contact {
+    width: 550px;
+    margin-left: 4%;
+    color: #F3994E;
+}
+
+
+  .contact2 {
+    width: 430px;
+    color: #3a3a3a;
+}
+
+
+  .btn-secondary {
+    font-family: futura-pt,sans-serif;
+    color:  #FFFFFF;
+    background-color:  #F3994E;
+    font-weight: 400;
+    font-size: 1.5em;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 50%;
+}
+
+
+
+
+
